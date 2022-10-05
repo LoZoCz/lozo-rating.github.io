@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass, Arial;
+}
+
+main
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fron-cont
+{
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    padding: 40px;
+    height: 370px;
+    color: white;
+    display: block;
+}
+
+.star-box img
+{
+    height: 16px;
+}
+
+.star-box
+{
+    background-color:  hsl(213, 19%, 18%);
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.fron-cont p
+{
+    width: 380px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: hsl(217, 12%, 63%);
+}
+
+.btn-grid
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.rating
+{
+    background-color: hsl(213, 19%, 18%);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    margin-bottom: 0;
+    color: hsl(217, 12%, 63%);
+    border: none;
+    font-family: Overpass, Arial;
+    transition: all ease-in-out 0.3s;
+}
+
+.rating:hover
+{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.rating:focus
+{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+.button-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit
+{
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    padding: 15px;
+    width: 100%;
+    color: white;
+    font-family: Overpass, Arial;
+    font-weight: 700;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.submit:hover
+{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    margin-top: 5px;
+}
+
+.back-cont
+{
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    padding: 40px;
+    height: 370px;
+    color: white;  
+    text-align: center;
+    display: none;
+}
+.thank-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.rate
+{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    padding: 6px 22px 6px 22px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.bottom-text
+{
+    width: 375px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    color: hsl(217, 12%, 63%);
+}
